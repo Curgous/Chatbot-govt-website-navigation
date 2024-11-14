@@ -1,10 +1,77 @@
+
+.react-chatbot-kit-chat-container {
+  z-index: 3 !important;
+  width: 29.29% !important;
+  height: 67.294% !important;
+  position: relative;
+  top: 14%;
+  left: 65%;
+ 
+  
+
+
+ 
+}
+span{
+  font-size: 2dvh !important;
+}
+::placeholder{
+  font-size: 1.5dvh !important;
+}
+.react-chatbot-kit-chat-inner-container{
+  width: 29.29dvw !important;
+  height: 67.294dvh !important;
+
+}
+/*1536*743*/
+
+.imag-div{
+  width: 100%;
+  height: 100%;
+ /* z-index: 0;*/
+
+
+}
+.img-div{
+  width: 100dvw;
+  height: 100dvh;
+  z-index: 1;
+}
+
+.divImag{
+ 
+  width: 100dvw;
+  height: 100dvh;
+
+}
+
+.idiv{
+  background-image: url('./components/images/chatbot.jpeg');
+  background-size: cover;
+  height: 100dvh;
+  width: 100dvw;
+
+}
+
+.fast{
+  width: 100dvw;
+  height: 100vh;
+}
+.imag{
+  width: 100%;
+  height: 100%;
+ /* z-index: 1;*/
+}
+.react-chatbot-kit-chat-bot-message{
+  margin-left: 0 !important;
+}
 .App {
   text-align: center;
 }
 
 .App-logo {
   height: 40vmin;
-  pointer-events: none;
+  pointer-evdents: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -15,7 +82,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 100dvh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +102,51 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.btn{
+  all: unset;
+  background-color: white;
+
+
+  width: 5.208dvw;
+  height: 5.208dvw;
+  display: flex;
+  position: relative;
+  left: 85%;
+  top: 12%;
+  border-radius: 100%;
+  z-index:2;
+  
+
+}
+.inner-button{
+  width: 5.208dvw;
+  height: 5.208dvw;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-color: white;
+  border: none;
+}
+.inner-button img{
+  height: 3.255dvw;
+  width: 3.255dvw;
+}
+
+.ss{
+  all:unset;
+/*position:  relative;
+left: 35%;
+top: 12%;*/
+position: fixed;
+margin-left: 37.4348%;
+margin-top:  81.521dvh;
+
+}
+.nn{
+  width: 63.802%;
+  height: 106dvh;
 }
