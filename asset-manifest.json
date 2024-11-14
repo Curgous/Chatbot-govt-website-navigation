@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Chatbot-govt-website-navigation/static/css/main.6ea77938.css",
+    "main.js": "/Chatbot-govt-website-navigation/static/js/main.87a53e90.js",
+    "static/js/453.9c8709a5.chunk.js": "/Chatbot-govt-website-navigation/static/js/453.9c8709a5.chunk.js",
+    "static/media/chatbot.jpeg": "/Chatbot-govt-website-navigation/static/media/chatbot.ed71cfc2870859c11634.jpeg",
+    "static/media/robo.svg": "/Chatbot-govt-website-navigation/static/media/robo.4b25a50f2f6f40094091cadc9f550147.svg",
+    "index.html": "/Chatbot-govt-website-navigation/index.html",
+    "main.6ea77938.css.map": "/Chatbot-govt-website-navigation/static/css/main.6ea77938.css.map",
+    "main.87a53e90.js.map": "/Chatbot-govt-website-navigation/static/js/main.87a53e90.js.map",
+    "453.9c8709a5.chunk.js.map": "/Chatbot-govt-website-navigation/static/js/453.9c8709a5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ea77938.css",
+    "static/js/main.87a53e90.js"
+  ]
+}
