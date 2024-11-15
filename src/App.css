@@ -6,7 +6,7 @@
   position: relative;
   top: 14%;
   left: 65%;
- 
+  
   
 
 
@@ -149,4 +149,69 @@ margin-top:  81.521dvh;
 .nn{
   width: 63.802%;
   height: 106dvh;
+}
+@media screen and (max-width : 1000px){
+  .idiv{
+    background-image: none;
+    background-color: black;
+  } 
+  .btn{
+    left: 0;
+    height: 12dvw ;
+    width: 12dvw;
+    position: relative;
+    
+  }
+  .ss{
+    left: 45.45dvw;
+  }
+  .inner-button{
+    height: 12dvw ;
+    width: 12dvw;
+    position: relative;
+ 
+
+  }
+  .inner-button img{
+    height: 7dvw ;
+    width: 7dvw;
+  }
+  .react-chatbot-kit-chat-container{
+    width: 75% !important;
+    left: 8dvw;
+  }
+  .react-chatbot-kit-chat-inner-container{
+    width: 100% !important;
+
+  }
+}
+@media screen and (min-width : 3000px) {
+  .react-chatbot-kit-chat-bot-message{
+    width: 10dvw !important;
+  }
+  .botavatar{
+    height: 3dvw !important;
+    width: 3dvw !important;
+  }
+  .botavatar img{
+    height: 1.5dvw !important;
+    width: 1.5dvw !important;
+  }
+  .react-chatbot-kit-chat-input-container{
+    height: 2.6dvw !important;
+  }
+  .react-chatbot-kit-chat-btn-send-icon{
+    width :25px !important;
+  }
+  input {
+      font-size: 0.8dvw !important;
+  }
+  .react-chatbot-kit-user-chat-message{
+    font-size: .8dvw !important;
+    
+  }
+  .react-chatbot-kit-chat-message-container{
+    height: 85% !important;
+  }
+  
 }

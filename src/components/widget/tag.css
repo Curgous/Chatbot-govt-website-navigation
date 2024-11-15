@@ -59,3 +59,31 @@
 .wid p{
     font-size: medium;
 }
+@media screen and (min-width : 3000px) {
+    .dv{
+        margin-top: 60px;
+        margin-bottom: 60px;
+        left: 200px;
+    } 
+        .option-button {
+          width: 6dvw !important;
+          height: 2.8dvw !important;
+          font-size: .8dvw;
+        }
+        .lft{
+            left: 100px;
+        }
+        .btndiv{
+            width: 6dvw !important;
+            height: 2.8dvw !important;
+            margin-top: 25px;
+           
+        }
+        .btndiv div p{
+            font-size: .8dvw;
+        }
+
+        
+      
+    
+}

@@ -11,3 +11,11 @@
     background: transparent;
     text-align: center;
   }
+
+  @media screen and (min-width : 3000px) {
+    .option-button {
+      width: 5dvw !important;
+      height: 2.5dvw !important;
+    }
+    
+  }
